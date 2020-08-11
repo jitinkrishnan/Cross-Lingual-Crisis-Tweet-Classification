@@ -10,13 +10,13 @@
 Download Appen [dataset](https://appen.com/datasets/combined-disaster-response-data/) consisting of Multilingual Disaster Response Messages.
 
 ### Extract XLM-R embeddings
-This step caches the embeddings and produces 6 .npy files and 6 text files with corresponding sentences.
 - ```python get_xlmr_embeddings.py en train```
 - ```python get_xlmr_embeddings.py en val```
 - ```python get_xlmr_embeddings.py en test```
 - ```python get_xlmr_embeddings.py ml train ```
 - ```python get_xlmr_embeddings.py en val```
 - ```python get_xlmr_embeddings.py en test```
+This step produces 6 ```.npy``` files with embeddings and 6 ```txt``` files with corresponding tweets. This will make it easier to train as XLMR is a bit slow.
 
 ### Running Models (en --> ml)
 ##### Baseline
