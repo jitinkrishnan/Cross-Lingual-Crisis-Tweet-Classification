@@ -11,12 +11,12 @@ Download Appen [dataset](https://appen.com/datasets/combined-disaster-response-d
 
 ### Extract XLM-R embeddings
 This step caches the embeddings and produces 6 .npy files and 6 text files with corresponding sentences.
-```python get_xlmr_embeddings.py en train```
-```python get_xlmr_embeddings.py en val```
-```python get_xlmr_embeddings.py en test```
-```python get_xlmr_embeddings.py ml train ```
-```python get_xlmr_embeddings.py en val```
-```python get_xlmr_embeddings.py en test```
+- ```python get_xlmr_embeddings.py en train```
+- ```python get_xlmr_embeddings.py en val```
+- ```python get_xlmr_embeddings.py en test```
+- ```python get_xlmr_embeddings.py ml train ```
+- ```python get_xlmr_embeddings.py en val```
+- ```python get_xlmr_embeddings.py en test```
 
 ### Running Models (en --> ml)
 ##### Baseline
@@ -25,6 +25,14 @@ This step caches the embeddings and produces 6 .npy files and 6 text files with 
 ```python modelA.py en ml```
 ##### Model B
 ```python modelB.py en ml```
+
+### Results (Accuracy in %)
+Source --> Target (Source --> Source)
+
+| S --> T | Baseline | Model A | Model B|
+ :-: |  :-: |  :-: |  :-: 
+| en --> ml | 59.98 (80.57) | 62.53 (77.02) | 66.79 (82.39) |
+| ml --> en | 60.93 (70.07) | 65.69 (63.50) | 70.95 (73.84) |
 
 ### Attention Visualization
 [Click Here](https://github.com/jitinkrishnan/Cross-Lingual-Crisis-Tweet-Classification/blob/master/Attention%20Plot%20Example.ipynb) to view the Jupyter Notebook that shows the attention heat map.
