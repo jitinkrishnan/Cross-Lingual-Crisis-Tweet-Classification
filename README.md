@@ -3,7 +3,7 @@
 **Purposel**: A custom cross-lingual neural network model over XLM-R with the capability to attend over the same words (```dlo``` in Haitian Creolel versus ```water``` in English) in different languages.
 
 ### Paper/Cite
-http://kiml2020.aiisc.ai/papers/KiML2020_paper_8.pdf at ([KiML@KDD'20](http://kiml2020.aiisc.ai/index.html))
+http://kiml2020.aiisc.ai/papers/KiML2020_paper_8.pdf (at [KiML@KDD'20](http://kiml2020.aiisc.ai/index.html))
 
 ### Requirements
 - Python3.6, Keras, Tensorflow.
