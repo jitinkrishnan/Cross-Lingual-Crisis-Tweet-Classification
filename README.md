@@ -34,8 +34,8 @@ Source --> Target (Source --> Source)
 
 | S --> T | Baseline | Model A | Model B|
  :-: |  :-: |  :-: |  :-: 
-| en --> ml | 59.98 (80.57) | 62.53 (77.02) | 66.79 (82.39) |
-| ml --> en | 60.93 (70.07) | 65.69 (63.50) | 70.95 (73.84) |
+| en --> ml | 59.98 (80.57) | 62.53 (77.02) | **66.79** (82.39) |
+| ml --> en | 60.93 (70.07) | 65.69 (63.50) | **70.95** (73.84) |
 
 ### Attention Visualization
 [Click Here](https://github.com/jitinkrishnan/Cross-Lingual-Crisis-Tweet-Classification/blob/master/Attention%20Plot%20Example.ipynb) to view the Jupyter Notebook that shows the attention heat map.
