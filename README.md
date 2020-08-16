@@ -19,7 +19,7 @@ Download Appen [dataset](https://appen.com/datasets/combined-disaster-response-d
 - ```python get_xlmr_embeddings.py ml train ```
 - ```python get_xlmr_embeddings.py en val```
 - ```python get_xlmr_embeddings.py en test```
-This step produces 6 ```.npy``` files with embeddings and 6 ```txt``` files with corresponding tweets. This will make it easier to train as XLMR is a bit slow.
+This step produces 6 ```.npy``` files with embeddings and 6 ```.txt``` files with corresponding tweets. This will make it easier to train as XLMR is a bit slow.
 
 ### Running Models (en --> ml)
 ##### Baseline
