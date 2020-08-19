@@ -1,4 +1,4 @@
-## Attention Realignment and Pseudo-Labelling for InterpretableCross-Lingual Classification of Crisis Tweets
+## Attention Realignment and Pseudo-Labelling for Interpretable Cross-Lingual Classification of Crisis Tweets
 
 **Purpose**: A cross-lingual neural network model over XLM-R with the capability to attend over the similar words (```dlo``` in Haitian Creole versus ```water``` in English) in different languages.
 
