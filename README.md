@@ -3,7 +3,15 @@
 **Purpose**: A cross-lingual neural network model over XLM-R with the capability to attend over the similar words (```dlo``` in Haitian Creole versus ```water``` in English) in different languages.
 
 ### Paper/Cite
-http://ceur-ws.org/Vol-2657/paper3.pdf (At [KiML@KDD'20](http://kiml2020.aiisc.ai/index.html))
+http://ceur-ws.org/Vol-2657/paper3.pdf ([KiML @ KDD 2020](http://kiml2020.aiisc.ai/index.html))
+```
+@article{krishnanAttentionRealignment,
+  title={Attention Realignment and Pseudo-Labelling for Interpretable Cross-Lingual Classification of Crisis Tweets},
+  author={Krishnan, Jitin and Purohit, Hemant and Rangwala, Huzefa},
+  booktitle={In Proceedings of KDD Workshop on Knowledge-infused Mining and Learning},
+  year={2020}
+}
+```
 
 ### Requirements
 - Python3.6, Keras, Tensorflow.
