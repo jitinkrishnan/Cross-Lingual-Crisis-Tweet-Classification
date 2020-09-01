@@ -3,7 +3,7 @@
 **Purpose**: A cross-lingual neural network model over XLM-R with the capability to attend over the similar words (```dlo``` in Haitian Creole versus ```water``` in English) in different languages.
 
 ### Paper/Cite
-https://aiisc.ai/KiML2020/papers/KiML2020_paper_8.pdf (To appear at [KiML@KDD'20](http://kiml2020.aiisc.ai/index.html))
+http://ceur-ws.org/Vol-2657/paper3.pdf (At [KiML@KDD'20](http://kiml2020.aiisc.ai/index.html))
 
 ### Requirements
 - Python3.6, Keras, Tensorflow.
